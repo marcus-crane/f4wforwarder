@@ -22,9 +22,20 @@ You'll need to check that you're running v7.7.4 or above as this uses async/awai
 
 `node -v` will return your current version number
 
-Once that's done, all you need to do is run `npm start`. You'll need to deploy it to a server for it to be useful outside of your own local network.
+Once that's done, all you need to do is run `npm install` followed by `npm start`. You'll need to deploy it to a server for it to be useful outside of your own local network.
 
 I'll assume you know how to figure that part out otherwise try looking into something like [Heroku](http://heroku.com)
+
+# How do I use it (tl;dr)
+
+```
+brew install node / sudo apt-get install node
+node -v (check that it's at least 7.7.4)
+npm install
+npm start
+```
+
+Best deployed to a server
 
 # Will I be sports entertained after using this code?
 
