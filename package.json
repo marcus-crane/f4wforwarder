@@ -1,14 +1,17 @@
 {
-  "name": "f4w",
+  "name": "f4wforwarder",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A small proxy server for Meltzer's Goodness",
+  "main": "server.js",
+  "engines": {
+    "node": ">=7.7.4"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Marcus Crane <marcus@thingsima.de>",
+  "license": "MIT",
   "dependencies": {
     "dotenv": "^4.0.0",
     "got": "^7.1.0",
