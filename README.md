@@ -2,6 +2,8 @@
 
 This is a little [hapi.js](https://hapijs.com/) server that reserves [Dave Meltzer](https://twitter.com/davemeltzerWON)'s famous [Wrestling Observer Radio](http://www.f4wonline.com/radioshow-archive)
 
+Note: I think I just rate limited so don't go too nuts. This should still work but it's "broken" now at least for me. Maybe you'll have better luck.
+
 # What is this, like a piracy thing?
 
 Nope! The WON radio requires you to have an active subscription to listen to (and I have one) but unfortunately, a lot of podcasting apps don't support authenticated/private streams.

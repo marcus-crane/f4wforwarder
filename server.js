@@ -1,5 +1,6 @@
 const Hapi = require('hapi')
 const got = require('got')
+require('dotenv').config()
 
 const server = new Hapi.Server()
 
@@ -48,7 +49,7 @@ server.route({
   method: 'GET',
   path: '/podcast/{id}.mp3',
   handler: ((request, reply) => {
-    reply(null, generateStream(request.params.id))
+    reply(null, generateStream(request.params.id)).type("audio/mpeg")
   })
 })
 
