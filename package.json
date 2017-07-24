@@ -10,10 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.16.2",
     "dotenv": "^4.0.0",
     "got": "^7.1.0",
-    "hapi": "^16.5.0",
-    "xml": "^1.0.1"
+    "hapi": "^16.5.0"
   }
 }
