@@ -22,7 +22,17 @@ First up, you'll need to have [Node](https://nodejs.org/) installed. Either a `s
 
 You'll need to check that you're running v7.7.4 or above as this uses async/await
 
-`node -v` will return your current version number
+`node -v` will return your current version number.
+
+Copy `example.env` to `.env` and fill in the placeholders. Here's an example:
+
+```
+DOMAIN=http://mycoolwebsite.com
+USERNAME=davemeltzer
+PASSWORD=supersecure123
+```
+
+Your username and password are combined and sent with the request because the actual audio files themselves require Basic Authorization (the popup prompt you get with things like routers) to access.
 
 Once that's done, all you need to do is run `npm install` followed by `npm start`. You'll need to deploy it to a server for it to be useful outside of your own local network.
 
@@ -34,10 +44,11 @@ I'll assume you know how to figure that part out otherwise try looking into some
 brew install node / sudo apt-get install node
 node -v (check that it's at least 7.7.4)
 npm install
+cp example.env -> .env
 npm start
 ```
 
-Best deployed to a server
+You'll need to deploy it to a server if you want to access files outside of your house. A Raspberry Pi + router forwarding would probably work perfectly.
 
 # Will I be sports entertained after using this code?
 
