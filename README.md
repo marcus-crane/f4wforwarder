@@ -1,8 +1,6 @@
 # F4W Forwarder
 
-This is a little [hapi.js](https://hapijs.com/) server that re-serves [Dave Meltzer](https://twitter.com/davemeltzerWON)'s famous [Wrestling Observer Radio](http://www.f4wonline.com/radioshow-archive)
-
-Note: I think I just rate limited so don't go too nuts. This should still work but it's "broken" now at least for me. Maybe you'll have better luck.
+This is a little [hapi.js](https://hapijs.com/) server that re-serves [Dave Meltzer](https://twitter.com/davemeltzerWON)'s famous [Wrestling Observer Radio](http://www.f4wonline.com/radioshow-archive).
 
 # What is this, like a piracy thing?
 
